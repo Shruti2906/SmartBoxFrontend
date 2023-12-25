@@ -1,0 +1,50 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ion-checkbox {
+    --size: 38px;
+    --checkbox-background-checked: var(--ion-color-pri);
+  }
+  
+  ion-checkbox::part(container) {
+    
+    padding: 2px;
+    border-radius: 6px;
+    border: 2px solid var(--ion-color-pri);
+  }
+  .checkboxe-grp-medicines{
+    margin-top: -4%;
+  }
+
+  .checkbox-tablet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkbox-tablet ion-text{
+    font-size: 50px;
+  }
+
+ .next-button ion-button {
+    --background: var(--ion-color-pri);
+    --background-hover: var(--ion-color-pri);
+    --background-activated: var(--ion-color-pri);
+    --background-focused: var(--ion-color-pri);
+  
+    --color: rgb(255, 255, 255);
+  
+    --border-radius: 10px;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  
+    --ripple-color: deeppink;
+  
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    --padding-start: 30px;
+    --padding-end:30px;
+  }

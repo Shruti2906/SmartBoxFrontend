@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+<<<<<<< HEAD
+    <string name="app_name">smartMedicineBox</string>
+    <string name="title_activity_main">smartMedicineBox</string>
+=======
+    <string name="app_name">HealthCare-Platform_App</string>
+    <string name="title_activity_main">HealthCare-Platform_App</string>
+>>>>>>> eb02108677ea6c217767a849eb94f14c659b899b
+    <string name="package_name">io.ionic.starter</string>
+    <string name="custom_url_scheme">io.ionic.starter</string>
+</resources>

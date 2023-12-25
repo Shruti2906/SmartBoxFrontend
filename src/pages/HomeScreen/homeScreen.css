@@ -1,0 +1,57 @@
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title h3{
+    color: var(--ion-color-pri);
+}
+.four-buttons{
+    margin-top: -5%;
+}
+.image-btn{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--ion-color-pri);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.appointment-btn{
+    margin-bottom: auto;
+}
+
+ion-col{
+    width: 230px;
+}
+
+ion-grid .medicine-name{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 19px;
+    background-color: gray;
+}
+
+ion-grid .medicine-per{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 19px;
+    background-color: gray;
+}
+
+.apt-btn{
+    background-color: var(--ion-color-pri);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: auto;
+    font-size: 20px;
+}

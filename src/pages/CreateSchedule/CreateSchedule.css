@@ -1,0 +1,46 @@
+.content{
+    background-color: white;
+}
+.title-part{
+    margin-top: -60%;
+}
+
+.title-part h1{
+    color: var(--ion-color-pri);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.container-fluid .add-container{
+    margin-top: -40px;
+    height: max-content;
+    background-color: #EA4545;
+    border-radius: 24px;
+    border: none;
+    padding: 20px;
+}
+
+.btn-container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 30px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-container .icon-container{
+    position: absolute;
+    right: 4%;
+    top: 6%;
+}
+
+.icon-container .icon{
+    color: var(--ion-color-sec);
+    font-size: 30px;
+}

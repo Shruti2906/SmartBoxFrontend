@@ -1,0 +1,33 @@
+.login-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.input-field{
+    min-width: 80%;
+    margin-bottom: 20%;
+}
+
+.label{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.input-field .form-control{
+    margin: 10px 0;
+}
+.subtitle {
+    margin-top: 20%;
+    margin-bottom: 70%;
+    align-items:  start !important;
+}
+
+.checkbox-forgot{
+    display: flex;
+    justify-content: space-between;
+}
